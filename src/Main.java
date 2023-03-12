@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         A a=new A();
-        A b=new A();
+        B b=new B();
 
         Thread T1= new Thread(a);
         Thread T2= new Thread(b);
